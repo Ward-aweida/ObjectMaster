@@ -7,7 +7,11 @@ public class Ninja extends Human{
         super(stealth, intelligence, strength, health);
         this.stealth = stealth1;
     }
-    public void steal (Human human){
+    public void steal (int stealth,int health){
+
+    }
+    public void runAway(int health ){
+        this.health=health/10;
 
     }
 }
